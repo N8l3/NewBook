@@ -73,8 +73,9 @@
        <%
        if(request.getParameter("register") !=null)
     		   {
-    	 		%> 
+    	 		%><div id="process"> 
     	 		<jsp:include page="process.jsp"></jsp:include>
+    	 		</div>
     	 		<%  
     		   }
        %>

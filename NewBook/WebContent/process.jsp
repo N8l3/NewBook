@@ -13,10 +13,9 @@ if(status>0)
 {
 	out.print("You are successfully registered");	
 }
-String email =obj.getEmail();
-if(email.equals(request.getParameter("remail")))
+else
 {
-	out.print("Email  already exist");
+		
 }
 %>  
 </body>
